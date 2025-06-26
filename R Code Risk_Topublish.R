@@ -179,7 +179,9 @@ FinalData <- FinalData %>%
 
 #write.csv(FinalData, "FinalData.csv", row.names = FALSE)
 
-
+# calcuate CI for linear models: 
+confint(model, level = 0.95)
+ 
 
 ########################  Analyses - Main Experiment ###########################################
 
